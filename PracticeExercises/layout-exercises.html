@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    
+    <style>
+
+      .left-profile,
+      .middle-profile,
+      .right-profile {
+        height: 235px;
+        border-color: rgb(214, 214, 214);
+        border-width: 1px;
+        border-style: solid;
+        box-shadow: .3px .3px 5px grey;
+      }
+
+
+      .left-pic {
+        width: 160px;
+        height: 140px;
+      }
+
+      .name {
+        margin-left: 5px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 2px;
+      }
+
+      .account-info {
+        margin-left: 5px;
+        display: grid;
+        grid-template-columns: 25px 1fr;
+        column-gap: 5px;
+      }
+
+      .dog-profile-pic {
+        width: 25px;
+        height: 25px;
+        border-radius: 50px;
+      }
+
+      .friends-info {
+        width: 114px;
+        vertical-align: top;
+        padding-top: 2px;
+        padding-left: 2px;
+      }
+
+      .friends-amount {
+        margin-top: 0;
+        color: grey;
+        margin-bottom: 0;
+      }
+
+      .friend-button {
+        background-color: rgb(62, 116, 216);
+        color:white;
+        width: 100px;
+        height: 32px;
+        border-style: none;
+        border-radius: 4px;
+        margin-left: 5px;
+      }
+
+      .friend-button:hover {
+        cursor: pointer;
+        background-color:rgb(96, 140, 223);
+      }
+
+      .friend-button:active {
+        background-color:rgb(24, 90, 212);
+      }
+
+      .profile-grid {
+        display: grid;
+        grid-template-columns: 160px 160px 160px;
+        column-gap: 18px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <div class="profile-grid">
+      <div class="left-profile">
+
+        <div class="pet-pic">
+          <img class="left-pic" src="animal-pics/cat.jpg">
+        </div>
+
+        <div class="pet-name">
+          <p class="name">
+            Oliver
+          </p>
+        </div>
+
+        <div class="account-info">
+
+          <div class="account-pic">
+            <img class="dog-profile-pic" src="animal-pics/dog2.jpg">
+          </div>
+
+          <div class="friends-info">
+            <p class="friends-amount">
+              2 mutual friends
+            </p>
+          </div>
+
+        </div>
+
+        <div class="button">
+          <button class="friend-button">
+            Add Friend
+          </button>
+        </div>
+
+      </div>
+
+      <div class="middle-profile">
+        <div class="pet-pic">
+          <img class="left-pic" src="animal-pics/cat2.jpg">
+        </div>
+
+        <div class="pet-name">
+          <p class="name">
+            Mimi
+          </p>
+        </div>
+
+        <div class="account-info">
+
+          <div class="account-pic">
+            <img class="dog-profile-pic" src="animal-pics/dog2.jpg">
+          </div>
+
+          <div class="friends-info">
+            <p class="friends-amount">
+              3 mutual friends
+            </p>
+          </div>
+
+        </div>
+
+        <div class="button">
+          <button class="friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>
+
+      <div class="right-profile">
+        <div class="pet-pic">
+          <img class="left-pic" src="animal-pics/dog.jpg">
+        </div>
+
+        <div class="pet-name">
+          <p class="name">
+            Rex
+          </p>
+        </div>
+
+        <div class="account-info">
+
+          <div class="account-pic">
+            <img class="dog-profile-pic" src="animal-pics/dog2.jpg">
+          </div>
+
+          <div class="friends-info">
+            <p class="friends-amount">
+              4 mutual friends
+            </p>
+          </div>
+
+        </div>
+
+        <div class="button">
+          <button class="friend-button">
+            Add Friend
+          </button>
+        </div>
+      </div>
+    </div>
+      
+
+  </body>
+
+</html>
